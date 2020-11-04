@@ -1,0 +1,10 @@
+version: '3'
+services:
+  flask:
+    build: .
+    command: python {{cookiecutter.file_name}}.py
+    ports:
+      - "{{cookiecutter.port}}:{{cookiecutter.port}}"
+    volumes:
+      - ./:/{{cookiecutter.directory_name}}
+

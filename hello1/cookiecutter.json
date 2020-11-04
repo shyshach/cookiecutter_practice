@@ -1,0 +1,8 @@
+{
+    "directory_name": "Hello",
+    "file_name": "Helloworld",
+    "greeting_recipient": "Natalia",
+    "host": "0.0.0.0",
+    "port": "5050",
+    "debug_mode": true
+}
